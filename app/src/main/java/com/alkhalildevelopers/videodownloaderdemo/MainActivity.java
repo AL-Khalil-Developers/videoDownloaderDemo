@@ -60,7 +60,8 @@ public class MainActivity extends AppCompatActivity {
                 if (videoLink.isEmpty()){
                     Toast.makeText(MainActivity.this, "Please Enter Video Link", Toast.LENGTH_SHORT).show();
                 }else{
-                    downloadVideo(videoLink);
+//                    downloadVideo(videoLink);
+                     DownloadFBVideo.Start(MainActivity.this,videoLink,false);
                 }
             }
         });

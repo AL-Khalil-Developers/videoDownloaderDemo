@@ -248,6 +248,8 @@ public class MainActivity extends AppCompatActivity {
             pref.setFileName(Number);
 
 
+        }else {
+            Toast.makeText(this, "Invalid Link : Your is not Valid", Toast.LENGTH_SHORT).show();
         }
     }
 
